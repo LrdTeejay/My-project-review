@@ -1,0 +1,111 @@
+*{
+    background-color: #1d234f;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+body {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  margin: 0;
+  padding: 0;
+  background: #f5f5f5;
+  color: #111;
+  text-align: center;
+}
+
+.header {
+  padding: 2rem;
+  background: white;
+  color: white;
+}
+
+.header img{
+    width: 100px;
+}
+
+h1 {
+  font-size: 2rem;
+  margin: 0.5rem 0;
+}
+
+h1 span {
+  color: #1d234f;
+}
+
+.subtitle {
+  font-size: 1.1rem;
+  color: #1d234f;
+}
+h2{
+    color: white;
+}
+
+.primary-btn {
+  margin-top: 1rem;
+  padding: 0.75rem 2rem;
+  font-size: 1rem;
+  border: none;
+  border-radius: 12px;
+  background-color: #1d234f;
+  color: white;
+  cursor: pointer;
+}
+
+.projects-section {
+  padding: 2rem 1rem;
+}
+
+.projects-section h2 {
+  font-size: 2rem;
+  margin-bottom: 1.5rem;
+}
+
+.project-card {
+  margin: 1.5rem auto;
+  border-radius: 20px;
+  max-width: 90%;
+  padding: 1rem;
+  text-align: center;
+  color: white;
+}
+
+.project-card img {
+  max-width: 100%;
+  border-radius: 12px;
+  margin-bottom: 1rem;
+}
+
+.secondary-btn {
+  margin-top: 1rem;
+  padding: 0.75rem 1.5rem;
+  font-size: 1rem;
+  border: none;
+  border-radius: 12px;
+  background-color: white;
+  color: color;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+.gradient-pink {
+  background: linear-gradient(135deg, #ff4ec3, #6048ff);
+  max-width: 600px;
+}
+
+.gradient-grey {
+  background: linear-gradient(135deg, #dee2e6, #adb5bd);
+  color: color;
+  max-width: 600px;
+}
+
+.gradient-blue {
+  background: linear-gradient(135deg, #007bff, #0d6efd);
+  max-width: 600px;
+}
+button:hover{
+    color: white;
+    background-color: black;
+}
+@media only screen and (min-width:776px){
+    div{
+        padding: 0 5%;
+    }
+}
